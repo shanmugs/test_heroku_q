@@ -1,2 +1,2 @@
-web: npm start
-worker: npm run worker
+web: node ./server.js
+worker: node ./event_worker.js
